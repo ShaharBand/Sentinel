@@ -1,0 +1,40 @@
+.custom-datagrid {
+    border: none !important;
+    color: var(--white);
+    background-color: transparent;
+}
+
+.custom-datagrid .MuiDataGrid-footerContainer,
+.custom-datagrid .MuiDataGrid-columnHeaders,
+.custom-datagrid .MuiDataGrid-cell {
+    border: none !important;
+}
+
+.custom-datagrid .MuiDataGrid-columnHeaderTitle {
+    color: var(--grey);
+}
+
+.MuiDataGrid-panel *,
+.MuiDataGrid-menu * {
+    color: var(--primary-color) !important;
+}
+
+.custom-datagrid .hyper-link {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.available-status,
+.unavailable-status {
+    border-radius: 1rem;
+    padding: 4px 12px;
+    background-color: var(--primary-color);
+}
+
+.available-status {
+    color: var(--green);
+}
+
+.unavailable-status {
+    color: var(--red);
+}

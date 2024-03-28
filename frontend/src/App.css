@@ -1,0 +1,38 @@
+:root {
+  /* Containers */
+  --bg-color: #888d99;
+  --primary-color: #22222a;
+  --secondary-color: #37373e;
+  --accent-color: #a7a7ff;
+
+  /* Texts */
+  --grey: #a2a2a2;
+  --white: #FEFFFF;
+
+  /* Indicators */
+  --red: #ef233c;
+  --green: #06d6a0;
+  --orange: #ffb4a2;
+  --blue: #90e0ef;
+}
+
+a {
+  color: var(--white);
+}
+
+a:hover {
+  scale: 1.1;
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  min-width: 0;
+  color: var(--white);
+  font-family: 'Roboto';
+}

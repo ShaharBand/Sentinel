@@ -1,0 +1,26 @@
+.top-bar-container {
+    margin: calc(var(--page-content-margin)*1) 0 calc(var(--page-content-margin)*3);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.top-bar-container .title {
+    line-height: 30px;
+}
+
+.top-bar-container .right-container {
+    margin-left: auto;
+}
+
+.top-bar-container .right-container svg {
+    padding: 10px;
+    border: 1px solid var(--grey);
+    margin: 5px;
+    border-radius: 0.75rem;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,30 @@
+:root {
+    --sidebar-width: 225px;
+    --page-content-margin: 20px;
+}
+
+.page-container {
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+    border-radius: 3em;
+    display: flex;
+    margin: var(--page-content-margin);
+    height: calc(100vh - 2*var(--page-content-margin));
+}
+
+.content-container {
+    flex-grow: 1;
+    margin-left: calc(var(--sidebar-width) + var(--page-content-margin) * 2);
+    border-left: var(--secondary-color) 1px solid;
+}
+
+.content {
+    overflow-x: hidden;
+    height: calc(100vh - var(--page-content-margin)*6);
+    margin: calc(var(--page-content-margin)*2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
