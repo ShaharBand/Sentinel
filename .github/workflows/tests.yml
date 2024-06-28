@@ -29,7 +29,7 @@ jobs:
 
     steps:
       - name: Set up MongoDB CLI
-        uses: supercharge/mongodb-github-action@1.10.0
+        uses: supercharge/mongodb-github-action@1.11.0
         with:           
             mongodb-username: ${{ env.DB_USER }}
             mongodb-password: ${{ env.DB_PASSWORD }} 
